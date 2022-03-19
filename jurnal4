@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace jurnalmod4_1302194049
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, b, jum;
+            System.Console.Write("Masukan bilangan 1  : ");
+            a = int.Parse(System.Console.In.ReadLine());
+            System.Console.Write("Masukan bilangan 2 : ");
+            b = int.Parse(System.Console.In.ReadLine());
+            jum = a + b;
+            System.Console.WriteLine("Hasil penjumlahan: " + jum);
+            System.Console.ReadLine();
+        }
+    }
+}
